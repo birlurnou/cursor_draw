@@ -1,0 +1,21 @@
+area_x1 = 100
+area_y1 = 200
+area_x2 = 300
+area_y2 = 400
+
+char_w = 15
+char_h = 20
+glyph_w = 12
+line_gap = 10
+
+px_delay_ms = 10
+hover_delay_ms = 20
+after_down_ms = 20
+before_up_ms = 20
+stroke_gap_ms = 20
+
+poll_interval_ms = 20
+
+use_ctrl = 0
+
+all_area_keys = Z, X, C
