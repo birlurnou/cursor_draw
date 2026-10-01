@@ -1,0 +1,12 @@
+[package]
+name = "cursor_draw"
+version = "0.1.0"
+edition = "2021"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser", "timeapi", "windef", "minwindef"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
