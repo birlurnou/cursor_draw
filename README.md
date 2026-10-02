@@ -98,19 +98,14 @@
 rustup toolchain install stable-x86_64-pc-windows-gnu
 rustup default stable-x86_64-pc-windows-gnu
 ```
----
-<br>
 
 ## 2. Устанавливаем MinGW-w64 (через msys2)
 
 ```rust
 pacman -S mingw-w64-x86_64-gcc
 ```
----
-<br>
 
 ## 3. Добавляем C:\msys64\mingw64\bin в PATH
-<br>
 
 ## 4. Клонируем репозиторий в удобную директорию
 
@@ -126,8 +121,6 @@ cursor_draw/
 └── src/
     └── main.rs       # исходный код
 ```
----
-<br>
 
 ## 5. Сборка (cmd в директории программы)
 
